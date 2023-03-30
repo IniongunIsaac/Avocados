@@ -9,13 +9,36 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Avocados Reciepes")
-        }
-        .padding()
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack(alignment: .center, spacing: 20) {
+                //Header
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(alignment: .top, spacing: 0) {
+                        HeaderView()
+                    }
+                }
+                
+                //FOOTER
+                
+                VStack(alignment: .center, spacing: 20) {
+                    Text("All About Avocados")
+                        .fontWeight(.bold)
+                    //.modifier(TitleModifier())
+                    
+                    Text("Everything you wanted to know about avocados but were too afraid to ask.")
+                        .font(.system(.body, design: .serif))
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(Color.gray)
+                        .frame(minHeight: 60)
+                }  //: VStack
+                .frame(maxWidth: 640)
+                .padding()
+                .padding(.bottom, 85)
+                
+            } //: VStack
+        } //: ScrollView
+        .edgesIgnoringSafeArea(.all)
+        .padding(0)
     }
 }
 
