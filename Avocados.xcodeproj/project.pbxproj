@@ -11,6 +11,10 @@
 		55A08A2629D5FCCF00896C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A08A2529D5FCCF00896C1D /* ContentView.swift */; };
 		55A08A2829D5FCD100896C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A08A2729D5FCD100896C1D /* Assets.xcassets */; };
 		55A08A2B29D5FCD100896C1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A08A2A29D5FCD100896C1D /* Preview Assets.xcassets */; };
+		55A08A3629D614BE00896C1D /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A08A3529D614BE00896C1D /* AvocadosView.swift */; };
+		55A08A3829D6153D00896C1D /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A08A3729D6153D00896C1D /* RipeningStagesView.swift */; };
+		55A08A3A29D6162C00896C1D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A08A3929D6162C00896C1D /* SettingsView.swift */; };
+		55A08A3C29D6163800896C1D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A08A3B29D6163800896C1D /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		55A08A2729D5FCD100896C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55A08A2A29D5FCD100896C1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55A08A3129D602E300896C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		55A08A3529D614BE00896C1D /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		55A08A3729D6153D00896C1D /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		55A08A3929D6162C00896C1D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		55A08A3B29D6163800896C1D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,11 @@
 		55A08A2229D5FCCF00896C1D /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				55A08A3429D614AA00896C1D /* Models */,
+				55A08A3329D614A400896C1D /* Data */,
+				55A08A3229D6149F00896C1D /* Views */,
 				55A08A3129D602E300896C1D /* Info.plist */,
 				55A08A2329D5FCCF00896C1D /* AvocadosApp.swift */,
-				55A08A2529D5FCCF00896C1D /* ContentView.swift */,
 				55A08A2729D5FCD100896C1D /* Assets.xcassets */,
 				55A08A2929D5FCD100896C1D /* Preview Content */,
 			);
@@ -67,6 +77,32 @@
 				55A08A2A29D5FCD100896C1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55A08A3229D6149F00896C1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55A08A2529D5FCCF00896C1D /* ContentView.swift */,
+				55A08A3529D614BE00896C1D /* AvocadosView.swift */,
+				55A08A3729D6153D00896C1D /* RipeningStagesView.swift */,
+				55A08A3929D6162C00896C1D /* SettingsView.swift */,
+				55A08A3B29D6163800896C1D /* AppView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55A08A3329D614A400896C1D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		55A08A3429D614AA00896C1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A08A3A29D6162C00896C1D /* SettingsView.swift in Sources */,
 				55A08A2629D5FCCF00896C1D /* ContentView.swift in Sources */,
+				55A08A3C29D6163800896C1D /* AppView.swift in Sources */,
+				55A08A3829D6153D00896C1D /* RipeningStagesView.swift in Sources */,
 				55A08A2429D5FCCF00896C1D /* AvocadosApp.swift in Sources */,
+				55A08A3629D614BE00896C1D /* AvocadosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
