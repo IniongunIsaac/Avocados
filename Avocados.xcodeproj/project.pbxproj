@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55572B0729D6F53900AC8DA7 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55572B0629D6F53900AC8DA7 /* HeaderModel.swift */; };
+		55572B0929D6F5E100AC8DA7 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55572B0829D6F5E100AC8DA7 /* FactModel.swift */; };
+		55572B0B29D6F5FC00AC8DA7 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55572B0A29D6F5FC00AC8DA7 /* RecipeModel.swift */; };
+		55572B0D29D6F61D00AC8DA7 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55572B0C29D6F61D00AC8DA7 /* RipeningModel.swift */; };
+		55572B0F29D6F63900AC8DA7 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55572B0E29D6F63900AC8DA7 /* HeaderData.swift */; };
+		55572B1129D6F65400AC8DA7 /* FactsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55572B1029D6F65400AC8DA7 /* FactsData.swift */; };
+		55572B1329D6F66F00AC8DA7 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55572B1229D6F66F00AC8DA7 /* RecipeData.swift */; };
+		55572B1529D6F68500AC8DA7 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55572B1429D6F68500AC8DA7 /* RipeningData.swift */; };
 		55A08A2429D5FCCF00896C1D /* AvocadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A08A2329D5FCCF00896C1D /* AvocadosApp.swift */; };
 		55A08A2629D5FCCF00896C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A08A2529D5FCCF00896C1D /* ContentView.swift */; };
 		55A08A2829D5FCD100896C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A08A2729D5FCD100896C1D /* Assets.xcassets */; };
@@ -19,6 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55572B0629D6F53900AC8DA7 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		55572B0829D6F5E100AC8DA7 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		55572B0A29D6F5FC00AC8DA7 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		55572B0C29D6F61D00AC8DA7 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		55572B0E29D6F63900AC8DA7 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		55572B1029D6F65400AC8DA7 /* FactsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsData.swift; sourceTree = "<group>"; };
+		55572B1229D6F66F00AC8DA7 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		55572B1429D6F68500AC8DA7 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 		55A08A2029D5FCCF00896C1D /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A08A2329D5FCCF00896C1D /* AvocadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosApp.swift; sourceTree = "<group>"; };
 		55A08A2529D5FCCF00896C1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +113,10 @@
 		55A08A3329D614A400896C1D /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				55572B0E29D6F63900AC8DA7 /* HeaderData.swift */,
+				55572B1029D6F65400AC8DA7 /* FactsData.swift */,
+				55572B1229D6F66F00AC8DA7 /* RecipeData.swift */,
+				55572B1429D6F68500AC8DA7 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -104,6 +124,10 @@
 		55A08A3429D614AA00896C1D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				55572B0629D6F53900AC8DA7 /* HeaderModel.swift */,
+				55572B0829D6F5E100AC8DA7 /* FactModel.swift */,
+				55572B0A29D6F5FC00AC8DA7 /* RecipeModel.swift */,
+				55572B0C29D6F61D00AC8DA7 /* RipeningModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,12 +202,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55572B0929D6F5E100AC8DA7 /* FactModel.swift in Sources */,
 				55A08A3A29D6162C00896C1D /* SettingsView.swift in Sources */,
 				55A08A2629D5FCCF00896C1D /* ContentView.swift in Sources */,
 				55A08A3C29D6163800896C1D /* AppView.swift in Sources */,
+				55572B1129D6F65400AC8DA7 /* FactsData.swift in Sources */,
 				55A08A3829D6153D00896C1D /* RipeningStagesView.swift in Sources */,
 				55A08A2429D5FCCF00896C1D /* AvocadosApp.swift in Sources */,
+				55572B0D29D6F61D00AC8DA7 /* RipeningModel.swift in Sources */,
 				55A08A3629D614BE00896C1D /* AvocadosView.swift in Sources */,
+				55572B1529D6F68500AC8DA7 /* RipeningData.swift in Sources */,
+				55572B1329D6F66F00AC8DA7 /* RecipeData.swift in Sources */,
+				55572B0B29D6F5FC00AC8DA7 /* RecipeModel.swift in Sources */,
+				55572B0729D6F53900AC8DA7 /* HeaderModel.swift in Sources */,
+				55572B0F29D6F63900AC8DA7 /* HeaderData.swift in Sources */,
 				55A08A3E29D626C800896C1D /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
